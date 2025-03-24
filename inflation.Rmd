@@ -10,6 +10,7 @@ repro:
   - here
   - tidyverse
   - lubridate
+  - devtools
   - aaronpeikert/repro@fc7e884
   scripts: R/prepare_inflation.R
   data: data/raw/inflation.rds
@@ -56,6 +57,4 @@ inflation %>%
   theme(legend.position = c(.1, .9)) 
 ```
 
-```{python}
-print("Hello World! Python here, do you miss R already?")
-```
+
