@@ -1,5 +1,4 @@
 RUN install2.r --error --skipinstalled \ 
-  devtools \ 
   here \ 
   lubridate \ 
   tidyverse
